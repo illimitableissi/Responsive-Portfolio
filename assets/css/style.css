@@ -1,0 +1,183 @@
+
+body{
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    color: #777777;
+    background-image: url(../images/fishnets-and-hearts.png)
+}
+
+* {
+    box-sizing: border-box
+}
+
+header{
+    position: static;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+h1{
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  
+}
+
+h2{
+    color: #4aaaa5;
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+  }
+  
+
+button {
+        background-color: #4aaaa5;
+        border: none;
+        color: white;
+        padding: 10px 30px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+#Links{
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+  
+  nav a:first-child {
+    border-left: 0 none;
+  }
+
+input, textarea{
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    display: block;
+    width: 100%;
+
+}
+
+textarea{
+    height: 200px;
+}
+
+.AboutMe{
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+a:visited {
+     color: #777777;
+}
+
+
+.container {
+    position: relative;
+    width: 35%;
+    margin: 10px;
+    float: left; 
+}
+
+.container img{
+    width:100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    bottom: -9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 100%
+}
+.container .btn:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+
+#MyFace{
+    height: 300px;
+    width: 250px;
+    margin: 20px;
+    float: left
+}
+
+.content{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    min-height: calc(100vh - 70px);
+}
+
+@media screen and (max-width: 980px) {
+
+.content{
+width: 100%
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+.content{
+width: 100%
+}   
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+.content{
+width: 100%
+}
+
+}
+
+
