@@ -175,8 +175,12 @@ margin-left:30px
 @media screen and (max-width: 768px) {
 
 .content{
-width: 70%
-}   
+width: 95%;
+margin: 0 auto
+}  
+
+h1{
+margin:0px 0px 0px 20px
 
 }
 
@@ -191,12 +195,13 @@ h1, .container{
 float: none;
 position: relative;
 width: 100%;
+margin: 0
 }
 
 #Links{
-    float: none;
-    margin-left: 110px;
-    padding: 15px
+float: none;
+margin-left: 110px;
+padding: 15px
      
 }
 
