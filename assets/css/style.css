@@ -61,7 +61,7 @@ footer {
   }
   
 
-button {
+button, .btn {
         background-color: #4aaaa5;
         border: none;
         color: white;
